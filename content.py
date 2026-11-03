@@ -3,6 +3,7 @@
 SHOP = "https://www.etsy.com/shop/NinaRoseArts"
 IG = "https://www.instagram.com/ninarose_artstudio/"
 THREADS = "https://www.threads.com/@ninarose_artstudio"
+EMAIL = "alessandralavieri@icloud.com"
 
 LANGS = {"en": "", "es": "es/", "pt": "pt/"}
 HTML_LANG = {"en": "en-US", "es": "es", "pt": "pt-BR"}
@@ -20,6 +21,7 @@ T = {
  "meta_paint_d":"Watercolors and pastels of imagined villages, flowers and gardens by Alessandra Lavieri.",
  "hero_k":"Hello, I'm Alessandra!","hero_h":"Handmade with <em>magic</em> and love.",
  "hero_p":"One-of-a-kind dolls, little animal friends and watercolor villages — each one sewn, sculpted and painted by hand.",
+ "cta_paint":"See the watercolors","cta_ig":"Follow me on Instagram","cta_mail":"Send me an email",
  "cta_meet":"Meet the doll family","cta_shop":"Visit my Etsy shop →","badge":"one of a kind<br>★ every time ★",
  "names_k":"Tiny personalities, made by hand","names_h":"Every doll gets a name.",
  "names_p":"Because each face is sculpted by hand, I find it almost impossible to make the same doll twice. Each one develops its own expression, charm and story — and when she is finished, I give her a name.",
@@ -72,6 +74,7 @@ T = {
  "meta_paint_d":"Acuarelas y pasteles de aldeas imaginarias, flores y jardines de Alessandra Lavieri.",
  "hero_k":"¡Hola, soy Alessandra!","hero_h":"Hecho a mano con <em>magia</em> y amor.",
  "hero_p":"Muñecas únicas, pequeños amigos animales y aldeas en acuarela — cada pieza cosida, esculpida y pintada a mano.",
+ "cta_paint":"Ver las acuarelas","cta_ig":"Sígueme en Instagram","cta_mail":"Envíame un correo",
  "cta_meet":"Conoce a la familia","cta_shop":"Visita mi tienda en Etsy →","badge":"pieza única<br>★ siempre ★",
  "names_k":"Pequeñas personalidades, hechas a mano","names_h":"Cada muñeca recibe un nombre.",
  "names_p":"Como cada rostro se esculpe a mano, es casi imposible hacer dos muñecas iguales. Cada una desarrolla su propia expresión, encanto e historia — y cuando está terminada, le doy un nombre.",
@@ -124,6 +127,7 @@ T = {
  "meta_paint_d":"Aquarelas e pastéis de vilarejos imaginários, flores e jardins de Alessandra Lavieri.",
  "hero_k":"Olá, eu sou a Alessandra!","hero_h":"Feito à mão com <em>magia</em> e amor.",
  "hero_p":"Bonecas únicas, bichinhos de pano e vilarejos em aquarela — cada peça costurada, esculpida e pintada à mão.",
+ "cta_paint":"Ver as aquarelas","cta_ig":"Me siga no Instagram","cta_mail":"Me mande um e-mail",
  "cta_meet":"Conheça a família","cta_shop":"Visite minha loja no Etsy →","badge":"peça única<br>★ sempre ★",
  "names_k":"Pequenas personalidades, feitas à mão","names_h":"Toda boneca ganha um nome.",
  "names_p":"Como cada rostinho é esculpido à mão, é quase impossível fazer duas bonecas iguais. Cada uma ganha sua própria expressão, charme e história — e, quando fica pronta, eu dou um nome a ela.",

@@ -4,7 +4,7 @@ const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelecto
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.08,rootMargin:'0px 0px -40px 0px'});
 $$('.rv').forEach(el=>io.observe(el));
 // hero slideshow
-const sl=$$('#slides img');if(sl.length>1){let i=0;setInterval(()=>{sl[i].classList.remove('on');i=(i+1)%sl.length;sl[i].classList.add('on')},4800)}
+const sl=$$('#slides .sl');if(sl.length>1){let i=0;setInterval(()=>{sl[i].classList.remove('on');i=(i+1)%sl.length;sl[i].classList.add('on')},4800)}
 // nav, journey stitch, paintings parallax
 const nav=$('#nav'),jp=$('#jpath'),jr=$('#journey'),vs=$('#villages'),ps=$$('#pstack img');
 const onScroll=()=>{if(!document.body.classList.contains('p-home'))return;nav.classList.toggle('solid',scrollY>40);

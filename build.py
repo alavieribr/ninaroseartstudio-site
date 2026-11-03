@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Gera o site estático ninaroseartstudio.com (EN / ES / PT). Uso: python3 build.py"""
 import json, os, html, random
-from content import T, STORY, REVIEWS, LANGS, HTML_LANG, SHOP, IG, THREADS
+from content import T, STORY, REVIEWS, LANGS, HTML_LANG, SHOP, IG, THREADS, EMAIL
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DOMAIN = "https://ninaroseartstudio.com"
@@ -26,7 +26,7 @@ def head(lang, page, t):
     title, desc = t[f"meta_{'paint' if page=='paintings' else page}_t"], t[f"meta_{'paint' if page=='paintings' else page}_d"]
     alts = "\n".join(f'<link rel="alternate" hreflang="{HTML_LANG[l]}" href="{DOMAIN}{url(l,page)}">' for l in LANGS)
     ld = {"@context": "https://schema.org", "@type": "Organization", "name": "Nina Rose Art Studio", "url": DOMAIN + "/",
-          "founder": {"@type": "Person", "name": "Alessandra Lavieri de Abreu"}, "sameAs": [SHOP, IG, THREADS],
+          "founder": {"@type": "Person", "name": "Alessandra Lavieri de Abreu"}, "sameAs": [SHOP, IG, THREADS], "email": EMAIL,
           "description": t["meta_home_d"]}
     return f"""<!DOCTYPE html>
 <html lang="{HTML_LANG[lang]}">
@@ -46,7 +46,7 @@ def head(lang, page, t):
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Nunito:wght@400;600;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css?v=2">
+<link rel="stylesheet" href="/assets/site.css?v=3">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head>
 <body class="p-{page}">"""
@@ -65,11 +65,11 @@ def footer(lang, t):
     return f"""<footer><div class="wrap">
 <div class="f-logo">🌹 Nina Rose <b>Art Studio</b></div>
 <p class="hand big">{t['foot']}</p>
-<p class="f-links"><a href="{SHOP}" target="_blank" rel="noopener">Etsy</a> · <a href="{IG}" target="_blank" rel="noopener">Instagram</a> · <a href="{THREADS}" target="_blank" rel="noopener">Threads</a></p>
+<p class="f-links"><a href="{SHOP}" target="_blank" rel="noopener">Etsy</a> · <a href="{IG}" target="_blank" rel="noopener">Instagram</a> · <a href="{THREADS}" target="_blank" rel="noopener">Threads</a> · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
 <p class="small">{t['foot_made']}<br>© 2026 Nina Rose Art Studio</p>
 </div></footer>
 <div id="lb" role="dialog" aria-modal="true"><button class="lb-x" aria-label="{t['lb_close']}">×</button><button class="lb-p" aria-label="{t['lb_prev']}">‹</button><figure><img alt=""><figcaption></figcaption></figure><button class="lb-n" aria-label="{t['lb_next']}">›</button></div>
-<script src="/assets/site.js?v=2" defer></script>
+<script src="/assets/site.js?v=3" defer></script>
 </body></html>"""
 
 def fig(n, t, big_attr=True, cls="rv"):
@@ -85,17 +85,28 @@ def cta(lang, t):
 <p class="rv lead">{t['a_p']}</p>
 <div class="ctas rv center"><a class="btn primary" href="{SHOP}" target="_blank" rel="noopener">{t['cta_shop']}</a>
 <a class="btn ghost" href="{IG}" target="_blank" rel="noopener">Instagram</a>
-<a class="btn ghost" href="{SHOP}" target="_blank" rel="noopener">{t['a_custom']}</a></div></div></section>"""
+<a class="btn ghost" href="{SHOP}" target="_blank" rel="noopener">{t['a_custom']}</a>
+<a class="btn ghost" href="mailto:{EMAIL}">✉ {t['cta_mail']}</a></div></div></section>"""
 
 def home(lang):
     t = T[lang]; out = [head(lang,"home",t), nav(lang,"home",t)]
-    slides = "".join(f'<img src="{img(n,True)}" alt="" {"class=on fetchpriority=high" if i==0 else "loading=lazy"}>' for i,n in enumerate(ok([5,23,36,18,8,49,60,31])))
+    # Fotos do Etsy (alta resolução) em tela cheia; fotos novas de Alessandra (03/11/2026, baixa resolução) emolduradas sobre fundo desfocado
+    seq = [5,"n/n01",23,"p/w08","n/n02",36,"n/n03",18,"p/w02","n/n04",8,"n/n05",49,"p/w09","n/n06",60,"n/n07",31]
+    seq = [x for x in seq if isinstance(x,str) or x in D]
+    def slide(i,x):
+        on = " on" if i==0 else ""
+        if isinstance(x,int): return f'<img class="sl{on}" src="{img(x,True)}" alt="" {"fetchpriority=high" if i==0 else "loading=lazy"}>'
+        return f'<div class="sl frame{on}"><img class="bg" src="/img/{x}.webp" alt="" loading="lazy"><img class="fg" src="/img/{x}.webp" alt="" loading="lazy"></div>'
+    slides = "".join(slide(i,x) for i,x in enumerate(seq))
     out.append(f"""<header id="hero"><div class="hero-text">
 <div class="blob b1"></div><div class="blob b2"></div>
 <div class="ht"><span class="kicker">{t['hero_k']}</span><h1>{t['hero_h']}</h1>
 <svg class="stitch" viewBox="0 0 240 18" aria-hidden="true"><path d="M2 12 C 40 2, 80 18, 120 9 S 200 2, 238 10"/></svg>
 <p class="lead">{t['hero_p']}</p>
-<div class="ctas"><a class="btn primary" href="{url(lang,'dolls')}">{t['cta_meet']}</a><a class="btn ghost" href="{SHOP}" target="_blank" rel="noopener">{t['cta_shop']}</a></div></div></div>
+<div class="ctas hero-ctas"><a class="btn primary" href="{url(lang,'dolls')}">{t['cta_meet']}</a><a class="btn ghost" href="{SHOP}" target="_blank" rel="noopener">{t['cta_shop']}</a>
+<a class="btn sage" href="{url(lang,'paintings')}">🎨 {t['cta_paint']}</a></div>
+<p class="hello-links"><a href="{IG}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r=".9" class="dot"/></svg>{t['cta_ig']}</a>
+<a href="mailto:{EMAIL}"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg>{t['cta_mail']}</a></p></div></div>
 <div class="slides" id="slides">{slides}<div class="badge">{t['badge']}</div></div></header>""")
     mq = ok([42,47,59,12,26,28,31,40,55,96,94,121,60,19,113,35,62,75,98,134])
     trk = "".join(f'<img src="{img(n)}" alt="" loading="lazy">' for n in mq*2)
@@ -125,7 +136,7 @@ def home(lang):
     out.append(f'<section id="materials"><div class="wrap"><span class="kicker rv">{t["mat_k"]}</span><h2 class="rv">{t["mat_h"]}</h2><div class="mats">{mats}</div></div></section>')
     out.append(f"""<section id="villages"><div class="wrap vill"><div class="rv"><span class="kicker">{t['v_k']}</span><h2>{t['v_h']}</h2><p>{t['v_p1']}</p><p>{t['v_p2']}</p>
 <div class="ctas"><a class="btn primary" href="{url(lang,'paintings')}">{t['v_cta']}</a><a class="btn ghost" href="{IG}" target="_blank" rel="noopener">{t['v_ig']}</a></div></div>
-<div class="paint-stack" id="pstack"><img src="/img/p/ig12.webp" alt="" loading="lazy"><img src="/img/p/ig11.webp" alt="" loading="lazy"><img src="/img/p/ig08.webp" alt="" loading="lazy"></div></div></section>""")
+<div class="paint-stack" id="pstack"><img src="/img/p/w01.webp" alt="" loading="lazy"><img src="/img/p/w04.webp" alt="" loading="lazy"><img src="/img/p/w06.webp" alt="" loading="lazy"></div></div></section>""")
     qs = "".join(f'<blockquote class="{"on" if i==0 else ""}">“{q}”<cite>{w} · {it}</cite></blockquote>' for i,(q,w,it) in enumerate(REVIEWS))
     out.append(f"""<section id="reviews"><div class="wrap center"><span class="kicker rv">{t['r_k']}</span><h2 class="rv">{t['r_h']}</h2>
 <div class="stats rv"><div><b data-count="277">277</b><span>{t['st1']}</span></div><div><b data-count="157">157</b><span>{t['st2']}</span></div><div><b>5.0★</b><span>{t['st3']}</span></div></div>
@@ -148,7 +159,8 @@ def story(lang):
     body = ""
     for i,(h,ps) in enumerate(STORY[lang]):
         ims = "".join(f'<img src="{img(n)}" alt="" loading="lazy">' for n in pics[i])
-        if i==4: ims = '<img src="/img/p/ig12.webp" alt="" loading="lazy"><img src="/img/p/ig11.webp" alt="" loading="lazy">'
+        if i==0: ims = '<img src="/img/a/a02.webp" alt="Alessandra" loading="lazy" style="object-position:70% 22%"><img src="/img/a/a01.webp" alt="Alessandra" loading="lazy" style="object-position:50% 30%">'
+        if i==4: ims = '<img class="one" src="/img/p/w01.webp" alt="" loading="lazy">'
         body += f'<article class="chapter {"alt" if i%2 else ""}"><div class="ch-text rv"><span class="num">0{i+1}</span><h2>{h}</h2>{"".join(f"<p>{p}</p>" for p in ps)}</div><div class="ch-pics rv">{ims}</div></article>'
     out.append(f"""<header class="page-head"><div class="wrap"><span class="kicker">{t['story_k']}</span><h1>{t['story_h']}</h1></div></header>
 <section class="tight"><div class="wrap">{body}</div></section>""")
@@ -156,7 +168,7 @@ def story(lang):
 
 def paintings(lang):
     t = T[lang]; out=[head(lang,"paintings",t), nav(lang,"paintings",t)]
-    figs = "".join(f'<figure class="rv"><a href="/img/p/{k}.webp" data-lb data-cap="{e(t["v_h"])}"><img src="/img/p/{k}.webp" alt="{e(t["v_h"])}" loading="lazy"></a></figure>' for k in ["ig12","ig11","ig08","ig04","ig10","ig06","ig02","ig03","ig01"])
+    figs = "".join(f'<figure class="rv"><a href="/img/p/{k}.webp" data-lb data-cap="{e(t["v_h"])}"><img src="/img/p/{k}.webp" alt="{e(t["v_h"])}" loading="lazy"></a></figure>' for k in ["w01","w02","w03","w04","w05","w06","w07"])
     out.append(f"""<header class="page-head green"><div class="wrap"><span class="kicker">{t['v_k']}</span><h1>{t['v_h']}</h1><p class="lead">{t['v_p1']}</p><p>{t['v_p2']}</p></div></header>
 <section class="tight"><div class="wrap"><div class="masonry paint">{figs}</div><p class="center"><a class="btn ghost" href="{IG}" target="_blank" rel="noopener">{t['v_ig']}</a></p></div></section>""")
     out.append(cta(lang,t)); out.append(footer(lang,t)); return "\n".join(out)
