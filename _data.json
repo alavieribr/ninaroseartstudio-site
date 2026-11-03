@@ -1,0 +1,1242 @@
+[
+{
+"n": 1,
+"name": "Lily",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "lily-handmade-cloth-doll"
+},
+{
+"n": 2,
+"name": "Betina",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "betina-handmade-cloth-doll"
+},
+{
+"n": 3,
+"name": "Melissa",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "melissa-handmade-cloth-doll"
+},
+{
+"n": 4,
+"name": "Fall Collection Carolina",
+"cat": "season",
+"w": 1132,
+"h": 1600,
+"slug": "fall-collection-carolina-handmade-cloth"
+},
+{
+"n": 5,
+"name": "Isadora",
+"cat": "doll",
+"w": 1119,
+"h": 1600,
+"slug": "isadora-handmade-cloth-doll-reserved-for"
+},
+{
+"n": 6,
+"name": null,
+"cat": "doll",
+"w": 828,
+"h": 1161,
+"slug": "pre-order-handmade-natural-fiber-cloth"
+},
+{
+"n": 7,
+"name": "Clara",
+"cat": "doll",
+"w": 1087,
+"h": 1600,
+"slug": "clara-handmade-cloth-doll"
+},
+{
+"n": 8,
+"name": "Nicoletta",
+"cat": "doll",
+"w": 1016,
+"h": 1600,
+"slug": "nicoletta-handmade-cloth-doll"
+},
+{
+"n": 9,
+"name": null,
+"cat": "doll",
+"w": 1600,
+"h": 1222,
+"slug": "pre-order-handmade-natural-fiber-cloth"
+},
+{
+"n": 10,
+"name": "Mini Nina Ballerina",
+"cat": "doll",
+"w": 1108,
+"h": 1600,
+"slug": "mini-nina-ballerina-handmade-cloth-doll"
+},
+{
+"n": 11,
+"name": "Nina Ballerina",
+"cat": "doll",
+"w": 887,
+"h": 1600,
+"slug": "nina-ballerina-handmade-cloth-doll"
+},
+{
+"n": 12,
+"name": "Marina",
+"cat": "doll",
+"w": 1007,
+"h": 1600,
+"slug": "marina-handmade-cloth-doll"
+},
+{
+"n": 13,
+"name": "Juliana",
+"cat": "doll",
+"w": 1083,
+"h": 1600,
+"slug": "juliana-handmade-cloth-doll"
+},
+{
+"n": 14,
+"name": "Menina Pink Velvet",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "menina-pink-velvet-handmade-cloth-doll"
+},
+{
+"n": 15,
+"name": "Menino Blue Velvet",
+"cat": "doll",
+"w": 1214,
+"h": 1600,
+"slug": "menino-blue-velvet-handmade-cloth-doll"
+},
+{
+"n": 16,
+"name": "Menina Yellow Gold Velvet",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "menina-yellow-gold-velvet-handmade-cloth"
+},
+{
+"n": 17,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "reserved-for-julie"
+},
+{
+"n": 18,
+"name": "Magnolia",
+"cat": "doll",
+"w": 1065,
+"h": 1600,
+"slug": "magnolia-art-doll-waldorf-inspired"
+},
+{
+"n": 19,
+"name": "Flora",
+"cat": "doll",
+"w": 954,
+"h": 1600,
+"slug": "flora-handmade-art-doll-waldorf-inspired"
+},
+{
+"n": 20,
+"name": "Menina Grey Velvet",
+"cat": "doll",
+"w": 954,
+"h": 1600,
+"slug": "menina-grey-velvet-handmade-cloth-doll"
+},
+{
+"n": 21,
+"name": "Menina Red Velvet",
+"cat": "doll",
+"w": 1045,
+"h": 1600,
+"slug": "menina-red-velvet-handmade-cloth-doll"
+},
+{
+"n": 22,
+"name": "Menina Gray Velvet",
+"cat": "doll",
+"w": 1126,
+"h": 1600,
+"slug": "menina-gray-velvet-handmade-cloth-doll"
+},
+{
+"n": 23,
+"name": "Serena",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "serena-reserved-to-eileen"
+},
+{
+"n": 24,
+"name": "Menino Navy Blue Velvet",
+"cat": "doll",
+"w": 916,
+"h": 1600,
+"slug": "menino-navy-blue-velvet-handmade-cloth"
+},
+{
+"n": 25,
+"name": "Menina Pink Plush Velvet",
+"cat": "doll",
+"w": 1056,
+"h": 1600,
+"slug": "menina-pink-plush-velvet-handmade-cloth"
+},
+{
+"n": 26,
+"name": "Menina Pink Plush Velvet",
+"cat": "doll",
+"w": 907,
+"h": 1600,
+"slug": "menina-pink-plush-velvet-handmade-cloth"
+},
+{
+"n": 27,
+"name": "Finley",
+"cat": "doll",
+"w": 1110,
+"h": 1600,
+"slug": "finley-handmade-waldorf-doll-cloth-doll"
+},
+{
+"n": 28,
+"name": "Abigail",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "abigail-handmade-art-doll-waldorf"
+},
+{
+"n": 29,
+"name": "Aline",
+"cat": "doll",
+"w": 1168,
+"h": 1600,
+"slug": "aline-handmade-waldorf-doll-inspired-rag"
+},
+{
+"n": 30,
+"name": "Alex",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "alex-handmade-waldorf-doll-inspired-rag"
+},
+{
+"n": 31,
+"name": "Menina",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "menina-handmade-cloth-doll-waldorf"
+},
+{
+"n": 32,
+"name": "Menina Pink Velvet",
+"cat": "doll",
+"w": 899,
+"h": 1600,
+"slug": "menina-pink-velvet-handmade-cloth-doll"
+},
+{
+"n": 33,
+"name": "Dianella",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "dianella-reserved-for-vera"
+},
+{
+"n": 34,
+"name": "Yasmin",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "yasmin-handmade-doll-waldorf-inspired"
+},
+{
+"n": 35,
+"name": "Gaia",
+"cat": "doll",
+"w": 1115,
+"h": 1600,
+"slug": "gaia-handmade-natural-fiber-art-doll"
+},
+{
+"n": 36,
+"name": "Domenica",
+"cat": "doll",
+"w": 1097,
+"h": 1600,
+"slug": "domenica-handmade-natural-fiber-art-doll"
+},
+{
+"n": 37,
+"name": "Menina Pink Velvet",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "menina-pink-velvet-reserved-for-ana"
+},
+{
+"n": 38,
+"name": "Menina Blue Velvet",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "menina-blue-velvet-handmade-cloth-doll"
+},
+{
+"n": 39,
+"name": "Menina Pink Velvet",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "menina-pink-velvet-handmade-cloth-doll"
+},
+{
+"n": 40,
+"name": "Luna",
+"cat": "doll",
+"w": 977,
+"h": 1600,
+"slug": "luna-reserved-for-kiara"
+},
+{
+"n": 41,
+"name": "Menina Lilac Velvet",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "menina-lilac-velvet-handmade-cloth-doll"
+},
+{
+"n": 42,
+"name": "Giacinta",
+"cat": "doll",
+"w": 1159,
+"h": 1600,
+"slug": "giacinta-waldorf-doll-inspired-14-36cm"
+},
+{
+"n": 43,
+"name": null,
+"cat": "doll",
+"w": 1600,
+"h": 1600,
+"slug": "custom-order-for-nicole-handmade-doll"
+},
+{
+"n": 44,
+"name": "Witch Menina Velvet",
+"cat": "season",
+"w": 1154,
+"h": 1600,
+"slug": "witch-menina-velvet-handmade-cloth-doll"
+},
+{
+"n": 45,
+"name": "Lila",
+"cat": "doll",
+"w": 991,
+"h": 1600,
+"slug": "lila-handmade-natural-fiber-art-doll"
+},
+{
+"n": 46,
+"name": null,
+"cat": "doll",
+"w": 844,
+"h": 1600,
+"slug": "custom-order-shahin-dress-leggings"
+},
+{
+"n": 47,
+"name": null,
+"cat": "doll",
+"w": 1112,
+"h": 1600,
+"slug": "custom-order-for-nicole-handmade-waldorf"
+},
+{
+"n": 48,
+"name": "Menina Pink Velvet",
+"cat": "doll",
+"w": 1150,
+"h": 1600,
+"slug": "menina-pink-velvet-handmade-cloth-doll"
+},
+{
+"n": 49,
+"name": null,
+"cat": "doll",
+"w": 910,
+"h": 922,
+"slug": "boy-waldorf-inspired-reserved-for-joanne"
+},
+{
+"n": 50,
+"name": "Landa",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "landa-handmade-natural-fiber-art-doll"
+},
+{
+"n": 51,
+"name": "Menina Pink Velvet",
+"cat": "doll",
+"w": 1033,
+"h": 1600,
+"slug": "menina-pink-velvet-handmade-cloth-doll"
+},
+{
+"n": 52,
+"name": "Menina Orange Velvet",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "menina-orange-velvet-handmade-cloth-doll"
+},
+{
+"n": 53,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "custom-order-handmade-natural-fiber"
+},
+{
+"n": 54,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "reserved-for-chantica-wheeler"
+},
+{
+"n": 55,
+"name": "Natalia",
+"cat": "doll",
+"w": 1477,
+"h": 1600,
+"slug": "natalia-handmade-natural-fiber-art-doll"
+},
+{
+"n": 56,
+"name": "Baby Bea",
+"cat": "baby",
+"w": 1259,
+"h": 1600,
+"slug": "baby-bea-handmade-natural-fiber-art-baby"
+},
+{
+"n": 57,
+"name": "Baby Pepper",
+"cat": "baby",
+"w": 1183,
+"h": 1600,
+"slug": "baby-pepper-handmade-natural-fiber-art"
+},
+{
+"n": 58,
+"name": "Baby Alix",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-alix-handmade-natural-fiber-art"
+},
+{
+"n": 59,
+"name": "Noah",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "noah-handmade-natural-fiber-cloth-doll"
+},
+{
+"n": 60,
+"name": "Aimee",
+"cat": "doll",
+"w": 1150,
+"h": 1534,
+"slug": "aimee-handmade-natural-fiber-art-doll"
+},
+{
+"n": 61,
+"name": "Baby Kya",
+"cat": "baby",
+"w": 1072,
+"h": 1600,
+"slug": "baby-kya-handmade-natural-fiber-art-baby"
+},
+{
+"n": 62,
+"name": "Baby Dulce",
+"cat": "baby",
+"w": 1193,
+"h": 1600,
+"slug": "baby-dulce-handmade-natural-fiber-art"
+},
+{
+"n": 63,
+"name": "Baby Lola",
+"cat": "baby",
+"w": 987,
+"h": 1600,
+"slug": "baby-lola-reserved-for-stacey-davis"
+},
+{
+"n": 64,
+"name": "Baby Martina",
+"cat": "baby",
+"w": 1027,
+"h": 1600,
+"slug": "baby-martina-handmade-natural-fiber-art"
+},
+{
+"n": 65,
+"name": "Baby Daisy",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-daisy-handmade-natural-fiber-art"
+},
+{
+"n": 66,
+"name": "Baby Bianca",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-bianca-handmade-natural-fiber-art"
+},
+{
+"n": 67,
+"name": "Baby Flora",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-flora-handmade-natural-fiber-art"
+},
+{
+"n": 68,
+"name": "Baby Catarina",
+"cat": "baby",
+"w": 1201,
+"h": 1600,
+"slug": "baby-catarina-handmade-natural-fiber-art"
+},
+{
+"n": 69,
+"name": null,
+"cat": "baby",
+"w": 1324,
+"h": 1600,
+"slug": "dress-for-baby-pepper-reserved-for"
+},
+{
+"n": 70,
+"name": "Baby Nyssa",
+"cat": "baby",
+"w": 973,
+"h": 1600,
+"slug": "baby-nyssa-reserved-for-monika-handmade"
+},
+{
+"n": 71,
+"name": "Baby Lilya",
+"cat": "baby",
+"w": 1080,
+"h": 1600,
+"slug": "baby-lilya-reserved-for-taylor-handmade"
+},
+{
+"n": 72,
+"name": "Baby Amelia",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-amelia-handmade-natural-fiber-art"
+},
+{
+"n": 73,
+"name": "Baby Surya",
+"cat": "baby",
+"w": 1099,
+"h": 1600,
+"slug": "baby-surya-handmade-natural-fiber-art"
+},
+{
+"n": 74,
+"name": "Baby Dora",
+"cat": "baby",
+"w": 1356,
+"h": 1600,
+"slug": "baby-dora-handmade-natural-fiber-art"
+},
+{
+"n": 75,
+"name": "Baby Ana",
+"cat": "baby",
+"w": 1106,
+"h": 1600,
+"slug": "baby-ana-handmade-natural-fiber-art-baby"
+},
+{
+"n": 76,
+"name": null,
+"cat": "doll",
+"w": 1212,
+"h": 1600,
+"slug": "custom-order-for-mariannehandmade"
+},
+{
+"n": 77,
+"name": "Baby Zia",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-zia-handmade-natural-fiber-art-baby"
+},
+{
+"n": 78,
+"name": "Baby Charlie",
+"cat": "baby",
+"w": 1127,
+"h": 1600,
+"slug": "baby-charlie-handmade-natural-fiber-art"
+},
+{
+"n": 79,
+"name": "Menina Gold Velvet",
+"cat": "doll",
+"w": 1187,
+"h": 1600,
+"slug": "menina-gold-velvet-handmade-cloth-doll"
+},
+{
+"n": 80,
+"name": "Menina Orange Velvet",
+"cat": "doll",
+"w": 1273,
+"h": 1600,
+"slug": "menina-orange-velvet-handmade-cloth-doll"
+},
+{
+"n": 81,
+"name": "Menina Gold Velvet",
+"cat": "doll",
+"w": 1284,
+"h": 1600,
+"slug": "menina-gold-velvet-handmade-cloth-doll"
+},
+{
+"n": 82,
+"name": null,
+"cat": "doll",
+"w": 1600,
+"h": 1133,
+"slug": "custom-order-for-christine"
+},
+{
+"n": 83,
+"name": "Menina Ballerina Pink Velvet",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "menina-ballerina-pink-velvet-handmade"
+},
+{
+"n": 84,
+"name": "Baby Fairy Dela",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-fairy-dela-handmade-natural-fiber"
+},
+{
+"n": 85,
+"name": "Baby Viviana",
+"cat": "baby",
+"w": 997,
+"h": 1600,
+"slug": "baby-viviana-reserved-for-stacey"
+},
+{
+"n": 86,
+"name": "Baby Melina",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-melina-handmade-natural-fiber-art"
+},
+{
+"n": 87,
+"name": "Emma and Fangy",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "emma-and-fangy-handmade-natural-fiber"
+},
+{
+"n": 88,
+"name": "Baby Nina Rose",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-nina-rose-reserved-for-stacey"
+},
+{
+"n": 89,
+"name": "Baby Maria Flor",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-maria-flor-handmade-natural-fiber"
+},
+{
+"n": 90,
+"name": "Juju",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "juju-handmade-natural-fiber-doll-12"
+},
+{
+"n": 91,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "custom-order-for-alexandra"
+},
+{
+"n": 92,
+"name": "Baby Juhi",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-juhi-handmade-natural-fiber-art"
+},
+{
+"n": 93,
+"name": "Baby Levi",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-levi-handmade-natural-fiber-art"
+},
+{
+"n": 94,
+"name": "Baby Isabel",
+"cat": "baby",
+"w": 1600,
+"h": 1600,
+"slug": "baby-isabel-handmade-natural-fiber-art"
+},
+{
+"n": 95,
+"name": "Baby Billie",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-billie-handmade-natural-fiber-art"
+},
+{
+"n": 96,
+"name": "Menina Lilac Velvet",
+"cat": "doll",
+"w": 905,
+"h": 1600,
+"slug": "menina-lilac-velvet-handmade-cloth-doll"
+},
+{
+"n": 97,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "custom-order-for-taylor"
+},
+{
+"n": 99,
+"name": "Baby Sabrina Cupcake",
+"cat": "baby",
+"w": 1600,
+"h": 1200,
+"slug": "baby-sabrina-cupcake-handmade-natural"
+},
+{
+"n": 100,
+"name": "Baby Luca and Juju the Owl",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-luca-and-juju-the-owl-handmade"
+},
+{
+"n": 101,
+"name": "Baby Naya",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-naya-handmade-natural-fiber-art"
+},
+{
+"n": 102,
+"name": "Baby Angelina",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-angelina-handmade-natural-fiber-art"
+},
+{
+"n": 103,
+"name": "Betina",
+"cat": "doll",
+"w": 1280,
+"h": 1280,
+"slug": "betina-handmade-natural-fiber-art-doll"
+},
+{
+"n": 104,
+"name": "Bea the Frog",
+"cat": "frog",
+"w": 1200,
+"h": 1600,
+"slug": "bea-the-frog-amigurumi-frog-friend-made"
+},
+{
+"n": 105,
+"name": "Baby Ishya",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-ishya-handmade-natural-fiber-art"
+},
+{
+"n": 106,
+"name": "Dot the Lamb",
+"cat": "animal",
+"w": 672,
+"h": 896,
+"slug": "dot-the-lamb-weighted-handmade-cloth"
+},
+{
+"n": 107,
+"name": "Bea the Frog",
+"cat": "frog",
+"w": 859,
+"h": 1600,
+"slug": "bea-the-frog-amigurumi-frog-friend-made"
+},
+{
+"n": 108,
+"name": "Bea the Frog",
+"cat": "frog",
+"w": 1600,
+"h": 1600,
+"slug": "bea-the-frog-amigurumi-frog-friend-made"
+},
+{
+"n": 109,
+"name": "Cakes the Lamb",
+"cat": "animal",
+"w": 1280,
+"h": 1280,
+"slug": "cakes-the-lamb-weighted-handmade-cloth"
+},
+{
+"n": 110,
+"name": "Baby Faya",
+"cat": "baby",
+"w": 1599,
+"h": 1600,
+"slug": "baby-faya-handmade-natural-fiber-art"
+},
+{
+"n": 111,
+"name": "Peter the Frog",
+"cat": "frog",
+"w": 1145,
+"h": 1600,
+"slug": "peter-the-frog-amigurumi-frog-friend"
+},
+{
+"n": 112,
+"name": "Melina",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "melina-handmade-natural-fiber-doll-12"
+},
+{
+"n": 113,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "custom-order-reserved-for-taylor"
+},
+{
+"n": 114,
+"name": "Baby Clarisse",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-clarisse-handmade-natural-fiber-art"
+},
+{
+"n": 115,
+"name": "Peter the Frog",
+"cat": "frog",
+"w": 1200,
+"h": 1600,
+"slug": "peter-the-frog-amigurumi-frog-friend"
+},
+{
+"n": 116,
+"name": "June Rose",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "june-rose-handmade-baby-doll-waldorf"
+},
+{
+"n": 117,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "reserved-for-chrissy"
+},
+{
+"n": 118,
+"name": null,
+"cat": "doll",
+"w": 1590,
+"h": 1600,
+"slug": "custom-order-reserved-for-chrissy"
+},
+{
+"n": 119,
+"name": "Amelie",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "amelie-reserved-for-cindy-handmade"
+},
+{
+"n": 120,
+"name": "Baby Pipa",
+"cat": "baby",
+"w": 1446,
+"h": 1600,
+"slug": "baby-pipa-handmade-natural-fiber-art"
+},
+{
+"n": 121,
+"name": null,
+"cat": "doll",
+"w": 1373,
+"h": 1600,
+"slug": "custom-order-stacey"
+},
+{
+"n": 122,
+"name": "Baby Willow and Bathilda the Bat",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-willow-and-bathilda-the-bat"
+},
+{
+"n": 123,
+"name": "Baby Umi",
+"cat": "baby",
+"w": 1440,
+"h": 1440,
+"slug": "baby-umi-reserved-for-stacey"
+},
+{
+"n": 124,
+"name": null,
+"cat": "frog",
+"w": 1439,
+"h": 862,
+"slug": "crochet-frog-friend-amigurumi-frog"
+},
+{
+"n": 125,
+"name": "Baby Marie",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-marie-820cm-handmade-doll-waldorf"
+},
+{
+"n": 126,
+"name": "Baby Ana",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-ana-820cm-handmade-doll-waldorf"
+},
+{
+"n": 127,
+"name": "Baby Gabriela",
+"cat": "baby",
+"w": 1600,
+"h": 1600,
+"slug": "baby-gabriela-handmade-natural-fiber-art"
+},
+{
+"n": 128,
+"name": null,
+"cat": "frog",
+"w": 1200,
+"h": 1600,
+"slug": "crochet-frog-friend-amigurumi-frog"
+},
+{
+"n": 129,
+"name": "Baby Bruna",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-bruna-handmade-baby-doll-waldorf"
+},
+{
+"n": 130,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "custom-order-sarah"
+},
+{
+"n": 131,
+"name": "Menina Pink Velvet",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "menina-pink-velvet-handmade-cloth-doll"
+},
+{
+"n": 132,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "reserved-for-cindy"
+},
+{
+"n": 133,
+"name": "Nelson the Monkey",
+"cat": "animal",
+"w": 1599,
+"h": 1600,
+"slug": "nelson-the-monkey-handmade-monkey"
+},
+{
+"n": 134,
+"name": "Juju",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "juju-handmade-natural-fiber-art-doll"
+},
+{
+"n": 135,
+"name": null,
+"cat": "doll",
+"w": 1145,
+"h": 1600,
+"slug": "reserved-for-jennifer-lola-the"
+},
+{
+"n": 136,
+"name": "Menina Pink Velvet",
+"cat": "doll",
+"w": 1600,
+"h": 1600,
+"slug": "menina-pink-velvet-handmade-cloth-doll"
+},
+{
+"n": 137,
+"name": null,
+"cat": "animal",
+"w": 1200,
+"h": 1600,
+"slug": "mini-lamb-weighted-handmade-cloth-doll"
+},
+{
+"n": 138,
+"name": "Miss Fox",
+"cat": "animal",
+"w": 1280,
+"h": 1280,
+"slug": "miss-foxhandmade-dollorganic-cotton"
+},
+{
+"n": 139,
+"name": "Miss Cupcake",
+"cat": "doll",
+"w": 672,
+"h": 896,
+"slug": "miss-cupcake-handmade-dollhandmade"
+},
+{
+"n": 140,
+"name": "Maxime",
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "maxime-handmade-dollhandmade-natural"
+},
+{
+"n": 141,
+"name": "Noah",
+"cat": "doll",
+"w": 859,
+"h": 1600,
+"slug": "noah-handmade-dollhandmade-natural-fiber"
+},
+{
+"n": 142,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "custom-order-for-cindy"
+},
+{
+"n": 143,
+"name": "Baby Bibi",
+"cat": "baby",
+"w": 1280,
+"h": 1280,
+"slug": "baby-bibi-handmade-baby-doll-waldorf"
+},
+{
+"n": 144,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "custom-order-for-taylor"
+},
+{
+"n": 145,
+"name": null,
+"cat": "animal",
+"w": 1200,
+"h": 1600,
+"slug": "sock-monkey-handmade-sock-animal"
+},
+{
+"n": 146,
+"name": null,
+"cat": "animal",
+"w": 1200,
+"h": 1600,
+"slug": "mini-lamb-weighted-handmade-cloth-doll"
+},
+{
+"n": 147,
+"name": null,
+"cat": "animal",
+"w": 1600,
+"h": 1200,
+"slug": "mini-lamb-weighted-handmade-cloth-doll"
+},
+{
+"n": 148,
+"name": null,
+"cat": "animal",
+"w": 1200,
+"h": 1600,
+"slug": "bunny-doll-weighted-handmade-cloth-doll"
+},
+{
+"n": 149,
+"name": null,
+"cat": "doll",
+"w": 1200,
+"h": 1600,
+"slug": "handmade-doll-waldorf-inspired-mia"
+},
+{
+"n": 150,
+"name": "Muffin the Mini Lamb",
+"cat": "animal",
+"w": 1200,
+"h": 1600,
+"slug": "muffin-the-mini-lamb-weighted-handmade"
+},
+{
+"n": 151,
+"name": "Wooly the Lamb",
+"cat": "animal",
+"w": 905,
+"h": 1600,
+"slug": "wooly-the-lamb-weighted-handmade-cloth"
+},
+{
+"n": 152,
+"name": "Leonel the Little Lion",
+"cat": "animal",
+"w": 1600,
+"h": 1600,
+"slug": "leonel-the-little-lion-handmade-cloth"
+},
+{
+"n": 153,
+"name": null,
+"cat": "animal",
+"w": 1200,
+"h": 1600,
+"slug": "handmade-animal-dollweighted-doll"
+},
+{
+"n": 154,
+"name": "Fluffy the Sheep",
+"cat": "animal",
+"w": 1200,
+"h": 1600,
+"slug": "fluffy-the-sheep-handmade-dollweighted"
+},
+{
+"n": 155,
+"name": "Simba the Little Lion Lion",
+"cat": "animal",
+"w": 1200,
+"h": 1600,
+"slug": "simba-the-little-lion-lion-doll-handmade"
+},
+{
+"n": 156,
+"name": "Baby",
+"cat": "baby",
+"w": 1200,
+"h": 1600,
+"slug": "baby-doll-flor-handmade-doll-with"
+}
+]

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ninaroseartstudio.com/sitemap.xml
